@@ -16,7 +16,8 @@ var cy = cytoscape({
         'background-fit': 'cover',
         'border-color': '#000',
         'border-width': 3,
-        'border-opacity': 0.5
+        'border-opacity': 0.5,
+        'background-image': 'http://www.charbase.com/images/glyph/127866'
       })
     .selector('.eating')
       .css({
@@ -32,8 +33,8 @@ var cy = cytoscape({
         'target-arrow-shape': 'triangle',
         'line-color': '#ffaaaa',
         'target-arrow-color': '#ffaaaa'
-      })
-    .selector('#bird')
+      }),
+    /*.selector('#bird')
       .css({
         'background-image': 'http://www.charbase.com/images/glyph/127866'
       })
@@ -65,7 +66,7 @@ var cy = cytoscape({
       .css({
         'background-image': 'http://www.charbase.com/images/glyph/127866'
       }),
-  
+ */ 
   elements: {
     nodes: [
       { data: { id: 'cat', name: 'Jimmy' } },

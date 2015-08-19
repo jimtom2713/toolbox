@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cytoscape": "^2.4.6"
+    "cytoscape": "^2.4.6",
+    "jquery": "^2.1.4"
   }
 }
