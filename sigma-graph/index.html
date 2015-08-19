@@ -1,0 +1,79 @@
+<html>
+<head>
+</head>
+  <body>
+    <!-- START SIGMA IMPORTS -->
+    <script src="node_modules/sigma/src/sigma.core.js"></script>
+    <script src="node_modules/sigma/src/conrad.js"></script>
+    <script src="node_modules/sigma/src/utils/sigma.utils.js"></script>
+    <script src="node_modules/sigma/src/utils/sigma.polyfills.js"></script>
+    <script src="node_modules/sigma/src/sigma.settings.js"></script>
+    <script src="node_modules/sigma/src/classes/sigma.classes.dispatcher.js"></script>
+    <script src="node_modules/sigma/src/classes/sigma.classes.configurable.js"></script>
+    <script src="node_modules/sigma/src/classes/sigma.classes.graph.js"></script>
+    <script src="node_modules/sigma/src/classes/sigma.classes.camera.js"></script>
+    <script src="node_modules/sigma/src/classes/sigma.classes.quad.js"></script>
+    <script src="node_modules/sigma/src/captors/sigma.captors.mouse.js"></script>
+    <script src="node_modules/sigma/src/captors/sigma.captors.touch.js"></script>
+    <script src="node_modules/sigma/src/renderers/sigma.renderers.canvas.js"></script>
+    <script src="node_modules/sigma/src/renderers/sigma.renderers.webgl.js"></script>
+    <script src="node_modules/sigma/src/renderers/sigma.renderers.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/webgl/sigma.webgl.nodes.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/webgl/sigma.webgl.nodes.fast.js"></script>
+    <script src="node_modules/sigma/src/renderers/webgl/sigma.webgl.edges.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/webgl/sigma.webgl.edges.fast.js"></script>
+    <script src="node_modules/sigma/src/renderers/webgl/sigma.webgl.edges.arrow.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+    <script src="node_modules/sigma/src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+    <script src="node_modules/sigma/src/middlewares/sigma.middlewares.rescale.js"></script>
+    <script src="node_modules/sigma/src/middlewares/sigma.middlewares.copy.js"></script>
+    <script src="node_modules/sigma/src/misc/sigma.misc.animation.js"></script>
+    <script src="node_modules/sigma/src/misc/sigma.misc.bindEvents.js"></script>
+    <script src="node_modules/sigma/src/misc/sigma.misc.drawHovers.js"></script>
+    <!-- END SIGMA IMPORTS -->
+    <div id="graph-container">
+      <style>
+        #graph-container {
+         /* top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          position: absolute;*/
+          /*max-width: 100%*/
+          width: 100%;
+          height: 100%;
+          margin: auto;
+          postion: absolute;
+        }
+      </style>
+      <!-- <div id="container"></div> -->
+    </div>
+    <script src="node_modules/sigma/plugins/sigma.layout.forceAtlas2/worker.js"></script>
+    <script src="node_modules/sigma/plugins/sigma.layout.forceAtlas2/supervisor.js"></script>
+    <script src="data/friends.js"></script>
+  </body>
+</html>
+
+<!-- <html>
+<head>
+<style type="text/css">
+  #container {
+    max-width: 800px;
+    height: 800px;
+    margin: auto;
+    postion: absolute;
+  }
+</style>
+</head>
+<body>
+<div id="container"></div>
+<script src="node_modules/sigma/build/sigma.min.js"></script>
+<script src="node_modules/sigma/build/plugins/sigma.parsers.json.min.js"></script>
+<script src="node_modules/sigma/build/plugins/sigma.layout.forceAtlas2.min.js"></script>
+<script src="data/friends.js"></script>
+</body>
+</html> -->
