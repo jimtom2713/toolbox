@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sliding Puzzle</title>
+  <style>
+  .picture {
+    border: 1px solid black;
+  }
+  </style>
+</head>
+<body>
+  <div id="title">
+    <h2>Sliding Puzzle</h2>
+  </div>
+  <div id="slider">
+    <form>
+      <label>Easy</label>
+      <input type="range" id="scale" value="1" min="1" max="5" step="1">
+      <label>Hard</label>
+    </form>
+    <br>
+  </div>
+  <div id="main" class="main">
+    <canvas id="puzzle" width="960px" height="960px"></canvas>
+    <!-- <canvas id="puzzle"></canvas> -->
+  </div>
+  <script src="./average-color-v2.js"></script>
+</body>
+</html>

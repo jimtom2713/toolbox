@@ -1,0 +1,19 @@
+{
+  "name": "colorPalette",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jimtom2713/toolbox",
+  "authors": [
+    "jimtom2713 <jwilliamson528@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper": "~0.9.24"
+  }
+}
